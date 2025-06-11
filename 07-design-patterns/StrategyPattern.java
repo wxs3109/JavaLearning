@@ -1,6 +1,12 @@
 // StrategyPattern.java - Java Learning File
 
-
+// what is strategy pattern?
+// 1. strategy pattern is a design pattern that allows an object to choose a behavior at runtime
+// 2. strategy pattern is a design pattern that allows an object to choose a behavior at runtime
+// 3. strategy pattern is a design pattern that allows an object to choose a behavior at runtime
+// 4. strategy pattern is a design pattern that allows an object to choose a behavior at runtime
+// 5. strategy pattern is a design pattern that allows an object to choose a behavior at runtime
+// 6. strategy pattern is a design pattern that allows an object to choose a behavior at runtime
 interface PaymentStrategy {
     public void pay(int amount);
 }

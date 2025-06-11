@@ -18,7 +18,6 @@ public class ThreadCreation {
     public static void main(String[] args) {
         // Method 1: Extending Thread
         MyThread thread1 = new MyThread();
-        thread1.setName("Thread-1");
         thread1.start();
 
         // Method 2: Implementing Runnable
@@ -27,12 +26,7 @@ public class ThreadCreation {
         thread2.start();
 
         // Method 3: Anonymous Runnable
-        Thread thread3 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("Anonymous Runnable running: " + Thread.currentThread().getName());
-            }
-        });
+        Thread thread3 = new Thread(() -> System.out.println("Anonymous Runnable running: " + Thread.currentThread().getName()));
         thread3.setName("Thread-3");
         thread3.start();
 

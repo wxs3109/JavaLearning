@@ -9,7 +9,7 @@ public class CallableAndFuture {
         // Submit Callable tasks
         Future<Integer> future1 = executor.submit(() -> {
             Thread.sleep(1000);
-            return counter.incrementAndGet();
+            return counter.incrementAndGet(); // what is counter? 
         });
 
         Future<Integer> future2 = executor.submit(() -> {

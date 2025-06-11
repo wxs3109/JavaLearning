@@ -1,0 +1,4 @@
+com/example/springdi/UserRepository.class
+com/example/springdi/DemoRunner.class
+com/example/springdi/UserService.class
+com/example/springdi/AutowiredDemo.class
